@@ -4,7 +4,7 @@ import { Card, Image } from 'react-bootstrap';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 const Contact = ({ contact }) => (
-  <Card>
+  <Card className="h-100">
     <Card.Header>
       <Image src={contact.image} width={75} />
       <Card.Title>{contact.firstName} {contact.lastName}</Card.Title>
